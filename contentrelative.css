@@ -1,0 +1,32 @@
+div.relative{
+    width: 500px;
+    height: 800px;
+    border: 5px solid rgb(255, 0, 255);
+   position: absolute;
+}
+div.absolute{
+        width: 200px;
+        height: 200px;
+        border: 5px solid rgb(28, 236, 9);
+        position: relative;
+        top: 76px;
+        left: 70px;
+    }
+
+    div.fixed{
+        position: fixed;
+        bottom: 20px;
+        right: 40px;
+        width: 200px;
+        height: 200px;
+        border: 5px solid rgb(51, 4, 223);
+    } 
+
+    p.sticky
+    {
+        background-color:yellow ;
+        color:red;
+        padding:15px;
+        top:0px;
+        position: sticky;
+    
